@@ -1,0 +1,164 @@
+.signin{
+	background-color:black;
+	color:white;
+	width:100%;
+	padding:none;
+	border:none;
+	position:relative;
+	clear:both;
+	text-align:right;
+	padding-right:100px;
+	height:25px;
+}
+
+.signin a{
+	text-decoration:none;
+	
+}
+
+.signin a:hover{
+	background-color:#616A6B  ;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+
+}	
+.header2{
+	position:fixed;
+	background-color:#2ECC71 ;
+	width:100%;
+	padding:none;
+	border:none;
+	display:block;
+}
+body{
+	margin:0;
+	padding:0;
+	background-color:#D5FB76;
+}
+
+.paragraph{
+	margin-left:150px;
+	position:absolute;
+	margin-top:-12px;
+	font-size:30px;
+	
+}
+
+
+.headerlogo img{
+	position:absolute;
+	float:left;
+	left: 40px;
+	width:60px;
+	height:60;
+	top:30px;
+	
+}
+.bar{
+	float:right;
+	height: 70px;
+	margin-right:20px;	
+	
+}
+
+nav{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	list-style:none;
+	width:100%;
+	overflow:auto;
+	background-color:#2ECC71;
+	
+}
+
+nav a{
+	display:block;
+	padding:10px 5px;
+	text-decoration:none;
+	text-align:center;
+	color:white;
+	
+}
+
+
+
+.listbar{
+	Padding:none;
+	list-style:none;
+	display:inline-block;
+		
+}
+
+a:active {color: white;}
+a:visited {color: white}
+
+.round-button {
+    display:block;
+    width:30px;
+    height:30px;
+    line-height:30px;
+    border: 1px solid #f5f5f5;
+    border-radius: 50%;
+    animation: colorchange 5s infinite;
+    text-align:center;
+    text-decoration:none;
+    background: #555777;
+    box-shadow: 0 0 3px gray;
+    font-size:20px;
+    font-weight:2000;
+	position:fixed;
+	bottom: 20px;
+	left: 30px;
+	z-index: 99;	
+	float:left;
+	color:white;
+	
+}
+
+.round-button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+@keyframes colorchange{
+	  0%   {background: red;}
+	  25%  {background: yellow;}
+	  50%  {background: teal;}
+	  75%  {background: green;}
+	  100% {background: red;}
+}
+
+ul li {
+	display: inline-block;
+}
+
+ul li:hover {
+	animation: colorchange 5s infinite;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+ul li:hover ul {
+	display: inline-block;
+}
+
+ul li ul {
+  position: absolute;
+  width: 100px;
+  display: none;
+  min-width:10px;
+  
+}
+
+ul li ul li { 
+ position:relative;
+  display: block; 
+  right:55px;
+}
+
+ul li ul li a {
+	display:block !important;
+} 
+ 
+
+.productsdrop{
+	display: inline;
+}

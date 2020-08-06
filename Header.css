@@ -1,0 +1,143 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+/* For the navigation bar */
+
+#logo{
+	float: left;
+	clear: right;
+	
+}
+
+#title {
+	position: absolute;
+	top: 70px;
+	left: 270px;
+	font-family: 'Open Sans', sans-serif;
+	color: #0E5A43;
+	font-size: 50px;
+}
+
+#sign{
+	float:right;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	transition: 1.5s;
+
+}
+
+a:active {color: #0E5A43;}
+a:hover {background-color: #E8EAE2;}
+a:visited {color: darkblue}
+
+.dropdown {
+	clear: right;
+	position: -webkit-sticky;
+	position: absolute;
+	display: block;
+	top: 180px;
+	left: 250px;
+}
+
+.navbar{
+	background-color: #aab394;
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px;
+	font-size: 15px;
+	width: 170px;
+	clear:right;
+}
+
+#cleaning{
+	border-radius: 10px 0px 0px 10px;
+}
+
+.navbar:hover{
+	background-color: #E8EAE2;
+}
+
+#productsdrop{
+	display: inline;
+}
+
+.products-content{
+	display: none;
+	position: absolute;
+	min-width: 10px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.products-content a:hover {background-color: #E8EAE2;}
+
+#productsdrop:hover .products-content {
+	display: block;
+	width: 140px;
+	text-align: center;
+	background-color: #7C8760;
+	left: 355px;
+	border-radius: 0px 0px 20px 20px;
+	line-height: 30px;
+	padding: 10px;
+}
+
+#joindrop{
+	display: inline;
+}
+
+.join-content{
+	display: none;
+	position: absolute;
+	min-width: 10px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.join-content a:hover {background-color: #E8EAE2;}
+
+#joindrop:hover .join-content {
+	display: block;
+	width: 140px;
+	text-align:center;
+	background-color: #7C8760;
+	left: 705px;
+	border-radius: 0px 0px 20px 20px;
+	line-height: 30px;
+	padding: 10px;
+	
+}
+
+#join{
+	border-radius: 0px 10px 10px 0px;
+}
+
+body {
+	
+	font-family: 'Open Sans', sans-serif;
+}
+
+img.slide {
+	width: 1225px;
+	height: 500px;
+	position: absolute;
+	padding: 0px;
+	margin:0px;
+}
+
+#slideshow{
+	position: relative;
+	top: 300px;
+}
+
+button.buttonclass{position: relative;top: 550px;}
+
+
+
